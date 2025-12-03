@@ -1,0 +1,60 @@
+# Dépendances
+node_modules/
+
+# Build outputs
+.next/
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environnement
+.env*.local
+.env
+!.env.example
+
+# Typescript
+*.tsbuildinfo
+
+# Divers
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Fichiers système
+.DS_Store
+desktop.ini
+
+# Éditeurs
+*.swp
+*.swo
+*~
+
+# Tests
+coverage/
+.nyc_output/
+
+# Outils
+.eslintcache
+.stylelintcache
+
+# Projet spécifique
+components/ui/
+
+# Fichiers temporaires
+tmp/
+temp/
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Autres fichiers générés
+*.min.js
+*.min.css
