@@ -36,6 +36,7 @@ export function HeroSection() {
 
           <p className="text-muted-foreground text-base md:text-lg max-w-lg mx-auto leading-relaxed">
             Qualite premium en gros et detail. Sacs, perruques, chaussures et cosmetiques livres rapidement.
+            Nous proposons aussi des services d'accompagnement au Nigeria pour les grossistes.
           </p>
 
           {/* CTA */}
@@ -78,6 +79,43 @@ export function HeroSection() {
               <span className="text-xs text-muted-foreground block">Livraison</span>
               <span className="text-sm font-semibold">2-15 jours</span>
             </div>
+          </div>
+        </div>
+
+        {/* Accompaniment Services Section */}
+        <div className="mt-12 p-6 bg-card rounded-2xl shadow-soft border border-border">
+          <h2 className="text-xl font-bold text-foreground mb-3">Services d'Accompagnement au Nigeria</h2>
+          <p className="text-muted-foreground mb-4">
+            Nous offrons des services d'accompagnement complets pour les grossistes souhaitant importer directement du Nigeria. 
+            Notre équipe vous guide à chaque étape de votre voyage d'achat.
+          </p>
+          <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm text-muted-foreground mb-4">
+            <li className="flex items-start gap-2">
+              <span className="text-primary mt-1">•</span>
+              <span>Assistance à la recherche de fournisseurs fiables</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-primary mt-1">•</span>
+              <span>Accompagnement lors des visites de marchés</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-primary mt-1">•</span>
+              <span>Négociation des meilleurs prix</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-primary mt-1">•</span>
+              <span>Vérification de la qualité des produits</span>
+            </li>
+          </ul>
+          <div className="pt-2">
+            <a 
+              href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER}`} 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-4 py-2 rounded-xl font-medium hover:bg-primary/90 transition-all text-sm"
+            >
+              En savoir plus
+            </a>
           </div>
         </div>
       </div>

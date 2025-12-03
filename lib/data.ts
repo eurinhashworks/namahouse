@@ -171,4 +171,4 @@ export const formatPrice = (price: number): string => {
   return price.toLocaleString("fr-FR") + " FCFA"
 }
 
-export const WHATSAPP_NUMBER = "22890000000" // Replace with actual number
+export const WHATSAPP_NUMBER = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "22890000000" // Replace with actual number

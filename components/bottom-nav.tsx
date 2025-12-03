@@ -1,6 +1,6 @@
 "use client"
 
-import { Home, Search, ShoppingBag, Settings } from "lucide-react"
+import { Home, Search, ShoppingBag, Settings, Users } from "lucide-react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useCart } from "@/lib/cart-context"
@@ -10,6 +10,7 @@ const navItems = [
   { href: "/", icon: Home, label: "Accueil" },
   { href: "/search", icon: Search, label: "Recherche" },
   { href: "/cart", icon: ShoppingBag, label: "Panier" },
+  { href: "/services", icon: Users, label: "Services" },
   { href: "/admin", icon: Settings, label: "Admin" },
 ]
 
