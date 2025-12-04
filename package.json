@@ -13,6 +13,7 @@
     "db:keepalive": "tsx lib/db-keepalive.ts",
     "seed:admin": "tsx scripts/seed-admin.ts",
     "seed:admin:pg": "tsx scripts/seed-admin-pg.ts",
+    "seed:products": "tsx scripts/import-products.ts",
     "generate:auth-secret": "tsx scripts/generate-auth-secret.ts"
   },
   "dependencies": {

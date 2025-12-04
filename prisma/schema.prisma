@@ -4,11 +4,6 @@ generator client {
   output   = "../node_modules/.prisma/client"
 }
 
-generator seed {
-  provider = "ts-node"
-  output   = "../node_modules/.prisma/seeds"
-}
-
 datasource db {
   provider = "postgresql"
 }

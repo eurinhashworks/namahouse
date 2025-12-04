@@ -64,3 +64,27 @@ pnpm generate:auth-secret
 - Génère un secret aléatoire sécurisé de 32 caractères
 - Affiche le secret dans la console pour le copier dans le fichier `.env`
 - Utilise l'API crypto de Node.js pour une génération sécurisée
+
+## Importation des produits
+
+Importe des produits et catégories dans la base de données à partir d'un fichier JSON.
+
+### Utilisation
+
+```bash
+pnpm seed:products
+```
+
+ou
+
+```bash
+pnpm tsx scripts/import-products.ts
+```
+
+### Détails
+
+- Charge les données depuis `scripts/products-data.json`
+- Crée ou met à jour les catégories avec leurs images
+- Crée ou met à jour les produits avec leurs images et attributs
+- Associe chaque produit à sa catégorie
+- Gère les mises à jour sans dupliquer les données

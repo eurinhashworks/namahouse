@@ -1,0 +1,216 @@
+{
+  "categories": [
+    {
+      "name": "Vêtements",
+      "slug": "vetements",
+      "image": "/images/categories/vetements.jpg"
+    },
+    {
+      "name": "Chaussures",
+      "slug": "chaussures",
+      "image": "/images/categories/chaussures.jpg"
+    },
+    {
+      "name": "Accessoires",
+      "slug": "accessoires",
+      "image": "/images/categories/accessoires.jpg"
+    },
+    {
+      "name": "Soins & Beauté",
+      "slug": "soins-beaute",
+      "image": "/placeholder.jpg"
+    },
+    {
+      "name": "Sacs & Bagages",
+      "slug": "sacs-bagages",
+      "image": "/placeholder.jpg"
+    }
+  ],
+  "products": [
+    {
+      "name": "T-shirt casual",
+      "description": "T-shirt confortable en coton pour un usage quotidien",
+      "price": 15000,
+      "images": [
+        "/images/products/tshirt1-front.jpg",
+        "/images/products/tshirt1-back.jpg"
+      ],
+      "categoryName": "Vêtements",
+      "stock": 50,
+      "attributes": {
+        "couleur": "Bleu",
+        "taille": "M",
+        "matiere": "100% coton"
+      }
+    },
+    {
+      "name": "Jean slim",
+      "description": "Jean slim coupe moderne en denim de qualité",
+      "price": 25000,
+      "images": [
+        "/images/products/jean1-front.jpg",
+        "/images/products/jean1-back.jpg"
+      ],
+      "categoryName": "Vêtements",
+      "stock": 30,
+      "attributes": {
+        "couleur": "Bleu foncé",
+        "taille": "32x32",
+        "matiere": "Denim 100% coton"
+      }
+    },
+    {
+      "name": "Basket de sport",
+      "description": "Chaussures de sport légères et confortables",
+      "price": 35000,
+      "images": [
+        "/images/products/basket1-front.jpg",
+        "/images/products/basket1-side.jpg"
+      ],
+      "categoryName": "Chaussures",
+      "stock": 25,
+      "attributes": {
+        "couleur": "Blanc",
+        "pointure": "42",
+        "matiere": "Toile et caoutchouc"
+      }
+    },
+    {
+      "name": "Sac à dos",
+      "description": "Sac à dos spacieux pour ordinateur portable",
+      "price": 20000,
+      "images": [
+        "/images/products/sac1-front.jpg",
+        "/images/products/sac1-back.jpg"
+      ],
+      "categoryName": "Accessoires",
+      "stock": 40,
+      "attributes": {
+        "couleur": "Noir",
+        "dimensions": "30x40x15 cm",
+        "matiere": "Polyester résistant"
+      }
+    },
+    {
+      "name": "Sac à main élégant",
+      "description": "Sac à main en similicuir noir élégant pour toutes occasions",
+      "price": 18000,
+      "images": [
+        "/designer-crossbody-bag-black.jpg"
+      ],
+      "categoryName": "Sacs & Bagages",
+      "stock": 20,
+      "attributes": {
+        "couleur": "Noir",
+        "dimensions": "25x15x5 cm",
+        "matiere": "Similicuir"
+      }
+    },
+    {
+      "name": "Sandales africaines",
+      "description": "Sandales colorées ornées de perles traditionnelles africaines",
+      "price": 12000,
+      "images": [
+        "/african-print-sandals-colorful-beaded.jpg"
+      ],
+      "categoryName": "Chaussures",
+      "stock": 35,
+      "attributes": {
+        "couleur": "Multicolore",
+        "pointure": "38",
+        "matiere": "Cuir et perles"
+      }
+    },
+    {
+      "name": "Sac en paille naturel",
+      "description": "Sac à bandoulière en paille tressée pour la plage",
+      "price": 8000,
+      "images": [
+        "/woven-straw-beach-bag-natural.jpg"
+      ],
+      "categoryName": "Sacs & Bagages",
+      "stock": 45,
+      "attributes": {
+        "couleur": "Naturel",
+        "dimensions": "40x30x15 cm",
+        "matiere": "Paille naturelle"
+      }
+    },
+    {
+      "name": "Escarpins dorés",
+      "description": "Escarpins à talons hauts élégants en similicuir doré",
+      "price": 22000,
+      "images": [
+        "/gold-stiletto-high-heels-elegant.jpg"
+      ],
+      "categoryName": "Chaussures",
+      "stock": 15,
+      "attributes": {
+        "couleur": "Doré",
+        "pointure": "37",
+        "hauteur talon": "10 cm",
+        "matiere": "Similicuir"
+      }
+    },
+    {
+      "name": "Perruque bouclée",
+      "description": "Perruque courte noire bouclée naturelle",
+      "price": 15000,
+      "images": [
+        "/curly-bob-wig-black-short-hair.jpg"
+      ],
+      "categoryName": "Accessoires",
+      "stock": 25,
+      "attributes": {
+        "couleur": "Noir",
+        "longueur": "Court",
+        "matiere": "Cheveux humains"
+      }
+    },
+    {
+      "name": "Perruque blonde",
+      "description": "Perruque blonde raide de luxe",
+      "price": 25000,
+      "images": [
+        "/blonde-lace-front-wig-straight-hair.jpg"
+      ],
+      "categoryName": "Accessoires",
+      "stock": 18,
+      "attributes": {
+        "couleur": "Blond",
+        "longueur": "Long",
+        "matiere": "Cheveux humains"
+      }
+    },
+    {
+      "name": "Soins hydratants",
+      "description": "Ensemble de soins hydratants au beurre de karité",
+      "price": 12000,
+      "images": [
+        "/organic-shea-butter-skincare-set.jpg"
+      ],
+      "categoryName": "Soins & Beauté",
+      "stock": 40,
+      "attributes": {
+        "type": "Hydratation",
+        "contenance": "200ml",
+        "composition": "Beurre de karité bio"
+      }
+    },
+    {
+      "name": "Palette de maquillage",
+      "description": "Palette de fards à paupières multicolores",
+      "price": 18000,
+      "images": [
+        "/premium-makeup-eyeshadow-palette-colorful.jpg"
+      ],
+      "categoryName": "Soins & Beauté",
+      "stock": 30,
+      "attributes": {
+        "couleurs": "Multicolore",
+        "nombre teintes": "12",
+        "marque": "Premium"
+      }
+    }
+  ]
+}
