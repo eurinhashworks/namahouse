@@ -1,10 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useState, Suspense } from "react";
 import { AuthForm } from "@/components/auth-form";
 import { useSearchParams } from "next/navigation";
 
-export default function AuthPage() {
+function AuthPageContent() {
   const searchParams = useSearchParams();
   const token = searchParams.get("token");
   const [mode, setMode] = useState<"signin" | "signup" | "forgot-password" | "reset-password">(
@@ -19,5 +19,13 @@ export default function AuthPage() {
         onModeChange={setMode} 
       />
     </div>
+  );
+}
+
+export default function AuthPage() {
+  return (
+    <Suspense fallback={<div>Chargement...</div>}>
+      <AuthPageContent />
+    </Suspense>
   );
 }

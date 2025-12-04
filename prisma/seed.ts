@@ -2,7 +2,7 @@ import { PrismaClient } from '@prisma/client';
 
 // Cette fonction sera appelée par Prisma lors du seeding
 async function main() {
-  const prisma = new PrismaClient();
+  const prisma = new PrismaClient({});
   
   try {
     // Création de l'utilisateur administrateur
