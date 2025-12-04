@@ -1,6 +1,13 @@
 // schema.prisma
 generator client {
   provider = "prisma-client-js"
+  output   = "../node_modules/.prisma/client"
+}
+
+generator seed {
+  provider = "ts-node"
+  output   = "../node_modules/.prisma/seeds"
+  previewFeatures = ["multiSchema"]
 }
 
 datasource db {

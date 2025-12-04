@@ -3,7 +3,7 @@ import { prismaAdapter } from "better-auth/adapters/prisma";
 import { PrismaClient } from "@prisma/client";
 import { sendEmail } from "./email";
 
-const prisma = new PrismaClient();
+const prisma = new PrismaClient({});
 
 export const auth = betterAuth({
   database: prismaAdapter(prisma, {
